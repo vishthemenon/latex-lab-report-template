@@ -1,0 +1,24 @@
+%--------------------------------------------------------------------------%
+% 🛩 LABORATORY REPORT TEMPLATE %
+%--------------------------------------------------------------------------%
+
+\documentclass{lab_report}
+\begin{document}
+
+% Titlepage, Abstract, TOC, TOF, TOT
+\input{pre/titlepage}
+\input{pre/contents}
+
+% The real stuff begins here
+\input{main/introduction}
+
+% References
+\bibliographystyle{unsrtnat} 
+\bibliography{main.bib}
+
+% The red ink dries here
+\appendix
+\include{appendix/errors}
+
+\end{document}
+
