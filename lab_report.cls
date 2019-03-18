@@ -23,7 +23,6 @@
 \definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
 \definecolor{mylilas}{RGB}{170,55,241}
 \graphicspath{ {figs/} }
-\graphicspath{ {figures/} }
 \RequirePackage{array}
 \RequirePackage[utf8]{inputenc}
 
