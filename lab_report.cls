@@ -8,6 +8,7 @@
 \RequirePackage{gensymb} % for the degree symbol - \degree
 \RequirePackage{booktabs} % tables
 \RequirePackage{multicol} %for side by side equations
+\RequirePackage{multirow}
 \RequirePackage{amsmath} 
 \RequirePackage[utf8]{inputenc}
 %\pagenumbering{gobble}
@@ -21,6 +22,10 @@
 \RequirePackage{color} %red, green, blue, yellow, cyan, magenta, black, white
 \definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
 \definecolor{mylilas}{RGB}{170,55,241}
+\graphicspath{ {figs/} }
 \graphicspath{ {figures/} }
 \RequirePackage{array}
 \RequirePackage[utf8]{inputenc}
+
+\setlength{\parskip}{.5\baselineskip}%
+\setlength{\parindent}{0pt}%
